@@ -1,0 +1,1 @@
+ffmpeg -i cam0/cam0_%3d.png -vcodec mpeg4 -b:v 800k test.avi
