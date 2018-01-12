@@ -20,9 +20,9 @@ drive = '0017'
 #-------------
 # params for ShiTomasi corner detection
 feature_params = dict( maxCorners = 100,
-                       qualityLevel = 0.3,
-                       minDistance = 7,
-                        blockSize = 7 )
+                       qualityLevel = 0.01,
+                       minDistance = 3,
+                       blockSize = 3)
  
 # Parameters for lucas kanade optical flow
 lk_params = dict( winSize  = (15,15),

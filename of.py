@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 
 # Change this to the directory where you store KITTI data
-basedir = '/home/git_repo/kitti_dataset_explore'
+basedir = '/work/git_repo/kitti_dataset_explore'
 
 # Specify the dataset to load
 date = '2011_09_26'

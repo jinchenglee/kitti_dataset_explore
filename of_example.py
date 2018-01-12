@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import math
 
-cap = cv2.VideoCapture('cam0_17.mp4')
+cap = cv2.VideoCapture('cam0_01.mp4')
 
 # params for ShiTomasi corner detection
 feature_params = dict( maxCorners = 10,
